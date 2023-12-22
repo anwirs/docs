@@ -82,6 +82,7 @@ const embedder = new TransformersEmbeddingFunction();
 Chroma can also use any [Sentence Transformers](https://www.sbert.net/) model to create embeddings.
 
 ```python
+from sentence_transformers import SentenceTransformer
 sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 ```
 
